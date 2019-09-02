@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.google.code</groupId>
     <artifactId>fqueue</artifactId>
-    <version>0.1.3-release</version>
+    <version>0.1.4-release</version>
     <packaging>jar</packaging>
     <name>fqueue</name>
     <url>http://code.google.com/p/fqueue/</url>
@@ -12,6 +12,11 @@
             <id>sunli1223</id>
             <name>sunli</name>
             <email>sunli1223@gmail.com</email>
+        </developer>
+        <developer>
+            <id>newdha</id>
+            <name>Hao Ding</name>
+            <email>hao.ding@tendcloud.com</email>
         </developer>
     </developers>
     <build>
