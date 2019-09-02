@@ -77,9 +77,8 @@ public class FileRunner implements Runnable {
             }
 
             if (fileNum != null) {
-                filePath = baseDir + fileNum + ".idb";
                 try {
-                    create(filePath);
+                    create(fileNum);
                 } catch (IOException e) {
                     log.error("预创建数据文件失败", e);
                 }

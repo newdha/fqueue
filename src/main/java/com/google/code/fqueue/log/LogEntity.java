@@ -72,7 +72,7 @@ public class LogEntity {
 		// 文件不存在，创建文件
 		if (file.exists() == false) {
 			createLogEntity();
-			FileRunner.addCreateFile(Integer.toString(fileNumber + 1));
+			FileRunner.addCreateFile(path.replaceAll(fileNumber + ".idb", fileNumber + 1 + ".idb"));
 		} else {
 			raFile = new RandomAccessFile(file, "rwd");
 			if (raFile.length() < LogEntity.messageStartPosition) {
